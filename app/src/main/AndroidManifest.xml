@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bplhd.android.bpllive2017">
+
+    <!-- Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.bplhd.android.bpllive2017.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bplhd.android.bpllive2017.WatchLiveActivity"
+            android:label="Watch Live" />
+        <activity
+            android:name="com.bplhd.android.bpllive2017.LiveScoreActivity"
+            android:label="Live Score" />
+        <activity
+            android:name="com.bplhd.android.bpllive2017.AboutUsActivity"
+            android:label="About Us" />
+        <activity
+            android:name="com.bplhd.android.bpllive2017.Server1Activity"
+            android:label="Live Streaming"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.bplhd.android.bpllive2017.Server2Activity"
+            android:label="Live Streaming"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name="com.bplhd.android.bpllive2017.Server3Activity"
+            android:label="Live Streaming"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name="com.bplhd.android.bpllive2017.Server4Activity"
+            android:label="Live Streaming"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name="com.bplhd.android.bpllive2017.Server5Activity"
+            android:label="Live Streaming"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    </application>
+
+</manifest>
